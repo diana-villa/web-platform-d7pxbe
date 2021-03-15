@@ -1,11 +1,89 @@
 <html>
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <script src="script.js"></script>
     <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
   </head>
   <body>
-    <h1>Hello there!</h1>
-    <a href="/me.html">My other page</a>
+    <h1>Víctimas de robo a transeúnte en la Ciudad de México</h1>
+    <span
+      >La ciudad de México es una de las entidades donde se cometen más delitos
+      en la república mexicana, la procuraduría general de justicia(PGJ) se
+      encarga de recibir denuncias e iniciar la investigación de los delitos. El
+      objetivo de este proyecto es explicar por medio de visualizaciones cuales
+      son las características de las víctimas de robo transeúnte. Algunas
+      características que se pretenden analizar son: Días de la semana en que se
+      cometen más robos, zonas de mayor riesgo, que delegaciones son más
+      delictivas, etc. Este trabajo va dirigido a los habitantes de la Ciudad de
+      México y tiene como objetivo que los habitantes eviten transitar por zonas
+      muy delictivas dependiendo de ciertas características. La base de datos
+      que se analizará es la base de datos de la PGJ con datos del 2020.
+    </span>
+    <h2>
+      Pre-proceso
+    </h2>
+    <span
+      >La base de datos original se transformó en una base con los datos
+      necesarios para este trabajo. La nueva base contiene solo los delitos de
+      robo a transeúnte de la Ciudad de México. Se eliminaron los registros con
+      campos nulos en campos clave para este proyecto. La base resultante
+      contiene X número de registros.
+      https://datos.cdmx.gob.mx/dataset/denuncias-victimas-pgj
+    </span>
+    <h2>Porcentaje de delitos por delegación y género</h2>
+
+    <p>
+      El primer gráfico de tarta representa la proporción de delitos cometidos
+      en cada delegación. Se puede observar que la delegación con más número de
+      robos es Iztapalapa con un 19,8%. <br />
+      El segundo gráfico de tarta representa la proporción de mujeres y hombres
+      víctimas de delitos. Los hombres representan el 72,4% de las víctimas del
+      delito de robo a transeúnte.
+    </p>
+
+    <iframe
+      width="600"
+      height="371"
+      seamless
+      frameborder="0"
+      scrolling="no"
+      src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ9ImF58bn73ZywLxfRksexqZ5VJg4_vxKeARCTpQT1T7Yz2qLTvEuzQ_7SF_T9ldxtVQjoBBymIvis/pubchart?oid=105281336&amp;format=interactive"
+    ></iframe>
+
+    <iframe
+      width="600"
+      height="371"
+      seamless
+      frameborder="0"
+      scrolling="no"
+      src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ9ImF58bn73ZywLxfRksexqZ5VJg4_vxKeARCTpQT1T7Yz2qLTvEuzQ_7SF_T9ldxtVQjoBBymIvis/pubchart?oid=1844564&amp;format=interactive"
+    ></iframe>
+    <h2></h2>
+
+    <h2>Víctimas por delegación y género.</h2>
+    La gráfica de barras apiladas permite visualizar que en todas las
+    delegaciónes la mayoría de las víctimas son hombres.<br />
+    <a href="https://ibb.co/fFNWfsM"
+      ><img
+        src="https://i.ibb.co/MS1Hrmn/Total-de-v-ctimas-por-delegaci-n-y-g-nero.png"
+        alt="Total-de-v-ctimas-por-delegaci-n-y-g-nero"
+        border="0"
+    /></a>
+
+    <h2>Víctimas por rango de edad y género.</h2>
+    Con la gráfica de barras apiladas también podemos representar la cantidad de
+    delitos por rango de edades y género. Podemos observar que la mayoría de las
+    víctimas están en un rango de edad de entre 30 y 40 años tanto en hombres
+    como en mujeres.<br />
+    <a href="https://ibb.co/mTxv0Jz"
+      ><img
+        src="https://i.ibb.co/W5TD0nK/Rango-De-Edad-1.png"
+        alt="Rango-De-Edad-1"
+        border="0"
+    /></a>
+
+    <a href="https://ibb.co/sbxKDfc"><img src="https://i.ibb.co/xX91ckw/vic-hombres-heatmap.png" alt="vic-hombres-heatmap" border="0"></a>
+
+    <a href="https://ibb.co/K6wDXgK"><img src="https://i.ibb.co/v1YhHWX/vic-mujeres-heatmap.png" alt="vic-mujeres-heatmap" border="0"></a>
   </body>
 </html>
